@@ -11,8 +11,8 @@ Each team member contributed significantly to different aspects of the project, 
 Webpage can be accessed on: https://rish12311.github.io/CSF364_Assignment1/webpage.html
 
 This repository contains implementations of two algorithms for finding the **Maximum h-Clique Density**:
-* **Algorithm 1**
-* **Algorithm 2**
+* **Exact Algorithm**
+* **Core-Exact Algorithm**
 
 These implementations are written in **C++** and optimized for performance.
 
@@ -26,12 +26,12 @@ To run these algorithms, ensure you have:
 
 Each algorithm is implemented in a separate C++ file. Compile them as follows:
 
-**Algorithm 1**
+**Exact Algorithm**
 ```
 g++ -std=c++17 -O3 -o algo1 algo1.cpp
 ```
 
-**Algorithm 2**
+**Core-Exact Algorithm**
 ```
 g++ -std=c++17 -O3 -o algo2 algo2.cpp
 ```
@@ -40,12 +40,12 @@ g++ -std=c++17 -O3 -o algo2 algo2.cpp
 
 Run each algorithm with the input file and h-value:
 
-**Algorithm 1**
+**Exact Algorithm**
 ```
 ./algo1 <filename>.mtx <h_value>
 ```
 
-**Algorithm 2**
+**Core-Exact Algorithm**
 ```
 ./algo2 <filename>.mtx <h_value>
 ```
@@ -54,11 +54,11 @@ Replace `<filename>.mtx` with the path to your matrix format data file and `<h_v
 
 ## 📖 Algorithm Descriptions
 
-**1️⃣ Algorithm 1**
-An algorithm for finding the **maximum h-clique density** in a graph using optimized graph processing techniques.
+**1️⃣ Exact Algorithm**
+A precise algorithm that guarantees finding the exact **maximum h-clique density** in a graph. This approach provides optimal results but may require more computational resources for larger graphs.
 
-**2️⃣ Algorithm 2**
-An alternative approach to computing **maximum h-clique density** with different performance characteristics.
+**2️⃣ Core-Exact Algorithm**
+An optimized approach that leverages core decomposition techniques to efficiently compute the **maximum h-clique density**. This method provides exact results while potentially offering better performance on certain graph structures.
 
 ## 📂 Input Format
 
@@ -76,6 +76,6 @@ Each algorithm outputs the following:
 | **Name** | **Responsibilities** |
 |----------|----------------------|
 | **Rishabh Goyal** | Website development & results analysis |
-| **Yash Gupta** | Report writing & implementation of Algorithm 2 |
+| **Yash Gupta** | Report writing & implementation of Core-Exact algorithm |
 | **Vani Jain** | Performance optimization & testing |
-| **Soham Mangle** | Implementation of Algorithm 1 |
+| **Soham Mangle** | Implementation of Exact algorithm |
