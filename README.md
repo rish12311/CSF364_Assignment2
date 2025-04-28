@@ -8,7 +8,7 @@
 
 Each team member contributed significantly to different aspects of the project, ensuring a well-rounded and comprehensive approach.
 
-Webpage can be accessed on: https://rish12311.github.io/CSF364_Assignment1/webpage.html
+Webpage can be accessed on: https://rish12311.github.io/CSF364_Assignment2/webpage.html
 
 This repository contains implementations of two algorithms for finding the **Maximum h-Clique Density**:
 * **Exact Algorithm**
