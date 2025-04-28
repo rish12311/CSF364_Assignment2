@@ -1,4 +1,4 @@
-# CSF364 - Assignment 1
+# CSF364 - Assignment 2
 
 **By:**
 * **Rishabh Goyal** (2021B1A72320H)
